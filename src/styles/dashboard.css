@@ -1,0 +1,131 @@
+.filter-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 16px;
+  }
+  
+  .filter-bar button {
+    background-color: #e3f2fd;
+    border: 1px solid #90caf9;
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+
+  .btn {
+    background-color: #e3f2fd;
+    border: 1px solid #90caf9;
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .filter-bar button.active,
+  .filter-bar button:hover {
+    background-color: #42a5f5;
+    color: white;
+    border-color: #42a5f5;
+  }
+  
+  .filter-bar select {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  
+  .custom-grid {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .ag-theme-alpine .ag-header {
+    background-color: #f0f4f8;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .ag-theme-alpine .ag-cell {
+    background-color: #ffffff;
+    color: #555;
+    font-size: 14px;
+    line-height: 20px;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .ag-theme-alpine .ag-row:hover {
+    background-color: #f5f9ff !important;
+  }
+
+
+  .dialog {
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    width: 30%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+  }
+  
+  .dialog input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 6px;
+    width: 100%;
+  }
+  
+  .dialog-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+
+
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  
+  .modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .dialog-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  

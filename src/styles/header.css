@@ -1,0 +1,28 @@
+body {
+margin: 0px;
+}
+.nav-bar {
+    background-color: black;
+    height: 50px;
+    display:flex;
+    align-items: center;
+}
+
+.router-link{
+    color: white;
+    margin-left: 20px;
+    padding: 16px;
+  text-decoration: none;
+}
+
+.router-link-active{
+    background-color: forestgreen;
+    color: white;
+    margin-left: 20px;
+    padding: 16px;
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+}
